@@ -11,15 +11,6 @@ body {
     height: 50%;
 }
 
-.heading {
-    font-family: 'Long Cang', cursive;
-    text-align: center;
-    font-size: 2rem;
-    color: #FFF;
-    padding-top: 5rem;
-    padding-bottom: 0;
-}
-
 a {
 	color: #FFF;
 	text-decoration: none;
