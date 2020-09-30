@@ -1,0 +1,83 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.main {
+    width: 100%;
+    height: 50%;
+}
+
+.heading {
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: #FFF;
+    padding-top: 5rem;
+    padding-bottom: 0;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+.container{
+	position: relative;
+	text-align: center;
+}
+
+.container > header {
+	padding: 30px 30px 10px 20px;
+	margin: 0px 20px 10px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(250, 245, 245, 0.2);
+    text-align: left;
+}
+
+.header-bar{
+	font-family: Arial, sans-serif;
+	line-height: 1.5rem;
+	font-size: .8rem;
+	width: 100%;
+	background: #FFF;
+	opacity: 0.9;
+	text-transform: uppercase;
+	position: relative;
+	-moz-box-shadow: 1px 0px 2px #FFF;
+	-webkit-box-shadow: 1px 0px 2px #FFF;
+	box-shadow: 1px 0px 2px #FFF;
+}
+.header-bar a{
+	padding: 0rem 0.8rem;
+	letter-spacing: .1rem;
+	color: #FFF;
+	display: block;
+	float: left;
+}
+.header-bar a:hover{
+    color: #ddd;
+    text-decoration: underline;
+}
+.header-bar span.nav{
+	float: right;
+}
+.header-bar span.nav a{
+	float: none;
+	display: inline;
+}
+
+.calendly-inline-widget {
+    min-width:320px;
+    width: 100vw;
+    height:100vh;
+}
+
+@media screen and (max-width: 767px) {
+	.container > header{
+		text-align: center;
+	}
+}
